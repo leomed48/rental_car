@@ -1,0 +1,691 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(37, 37, 37);
+  border: 1px solid orange;
+}
+/****************************************HEADER***************************/
+header {
+  background-image: url("/images/imagen-banner3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  height: 100vh;
+  width: 1200px;
+  background-color: rgb(250, 175, 114);
+  opacity: calc(80%);
+  position: absolute;
+}
+
+.box > h1 {
+  padding: 18% 12%;
+  font-size: 110px;
+  color: white;
+}
+
+.boxspan {
+  width: 750px;
+  height: 80px;
+  margin-left: 12%;
+  background-color: black;
+  padding-left: 3%;
+  margin-top: -15%;
+  padding-top: 1.5%;
+}
+
+.boxspan > span {
+  color: white;
+  font-size: 31px;
+}
+
+.circle1 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  transform: scale(0.75);
+  margin-left: 54%;
+  margin-top: 2%;
+}
+
+.circle1 > img {
+  position: absolute;
+  padding: 5%;
+}
+
+/****************************************SECCIÓN1******************************/
+/*.section1 {
+  
+}*/
+
+h2 {
+  font-size: 68px;
+  color: white;
+  text-align: center;
+  margin-bottom: 7%;
+  margin-top: 5%;
+}
+
+.pack1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 7% 2% 7%;
+}
+/****************************************SPARK******************************/
+.auto1 {
+  width: 32%;
+}
+
+.image_a1 {
+  width: 100%;
+}
+
+.image_a1 > img {
+  width: 100%;
+  height: 240px;
+}
+
+.tipocar {
+  background-color: rgb(50, 80, 6);
+  width: 100%;
+  height: 10vh;
+}
+
+.tipocar > h3 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.specifications {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.list {
+  margin: 3% 0% 3% 20%;
+}
+
+ul > li {
+  font-size: 40px;
+}
+
+li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+.precio1 {
+  font-size: 40px;
+  text-align: center;
+  color: orangered;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 3% 0% 3% 3%;
+}
+
+button {
+  margin: 3% 0% 3% 10%;
+  width: 80%;
+  height: 70px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+/****************************************SANDERO******************************/
+.auto2 {
+  width: 32%;
+}
+
+.image_a2 {
+  width: 100%;
+}
+
+.image_a2 > img {
+  width: 100%;
+  height: 240px;
+}
+
+.tipocar {
+  background-color: rgb(50, 80, 6);
+  width: 100%;
+  height: 10vh;
+}
+
+.tipocar > h3 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.specifications {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.list {
+  margin: 3% 0% 3% 20%;
+}
+
+ul > li {
+  font-size: 40px;
+}
+
+li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+.precio2 {
+  font-size: 40px;
+  text-align: center;
+  color: orangered;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 3% 0% 3% 3%;
+}
+
+button {
+  margin: 3% 0% 3% 10%;
+  width: 80%;
+  height: 70px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+/****************************************DUSTER******************************/
+.auto3 {
+  width: 32%;
+}
+
+.image_a3 {
+  width: 100%;
+}
+
+.image_a3 > img {
+  width: 100%;
+  height: 240px;
+}
+
+.tipocar {
+  background-color: rgb(50, 80, 6);
+  width: 100%;
+  height: 10vh;
+}
+
+.tipocar > h3 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.specifications {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.list {
+  margin: 3% 0% 3% 20%;
+}
+
+ul > li {
+  font-size: 40px;
+}
+
+li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+.precio3 {
+  font-size: 40px;
+  text-align: center;
+  color: orangered;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 3% 0% 3% 3%;
+}
+
+button {
+  margin: 3% 0% 3% 10%;
+  width: 80%;
+  height: 70px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+/****************************************PACK2******************************/
+.pack2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 7% 0% 7%;
+}
+
+/****************************************TUCSON******************************/
+.auto4 {
+  width: 32%;
+}
+
+.image_a4 {
+  width: 100%;
+}
+
+.image_a4 > img {
+  width: 100%;
+  height: 240px;
+}
+
+.tipocar {
+  background-color: rgb(50, 80, 6);
+  width: 100%;
+  height: 10vh;
+}
+
+.tipocar > h3 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.specifications {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.list {
+  margin: 3% 0% 3% 20%;
+}
+
+ul > li {
+  font-size: 40px;
+}
+
+li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+.precio4 {
+  font-size: 40px;
+  text-align: center;
+  color: orangered;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 3% 0% 3% 3%;
+}
+
+button {
+  margin: 3% 0% 3% 10%;
+  width: 80%;
+  height: 70px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+/****************************************FORTUNER******************************/
+.auto5 {
+  width: 32%;
+}
+
+.image_a5 {
+  width: 100%;
+}
+
+.image_a5 > img {
+  width: 100%;
+  height: 240px;
+}
+
+.tipocar {
+  background-color: rgb(50, 80, 6);
+  width: 100%;
+  height: 10vh;
+}
+
+.tipocar > h3 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.specifications {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.list {
+  margin: 3% 0% 3% 20%;
+}
+
+ul > li {
+  font-size: 40px;
+}
+
+li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+.precio5 {
+  font-size: 40px;
+  text-align: center;
+  color: orangered;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 3% 0% 3% 3%;
+}
+
+button {
+  margin: 3% 0% 3% 10%;
+  width: 80%;
+  height: 70px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+/****************************************Z4******************************/
+.auto6 {
+  width: 32%;
+}
+
+.image_a6 {
+  width: 100%;
+}
+
+.image_a6 > img {
+  width: 100%;
+  height: 240px;
+}
+
+.tipocar {
+  background-color: rgb(50, 80, 6);
+  width: 100%;
+  height: 10vh;
+}
+
+.tipocar > h3 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.specifications {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.list {
+  margin: 3% 0% 3% 20%;
+}
+
+ul > li {
+  font-size: 40px;
+}
+
+li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+.precio6 {
+  font-size: 40px;
+  text-align: center;
+  color: orangered;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 3% 0% 3% 3%;
+}
+
+button {
+  margin: 3% 0% 3% 10%;
+  width: 80%;
+  height: 70px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+/***********************************SECTION2***************************************************/
+.section2 {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.paralelogramo {
+  width: 1000%;
+  height: 70vh;
+  transform: skew(0, -4deg);
+  background: red;
+  margin-top: 8%;
+}
+
+p {
+  color: white;
+  font-size: 38px;
+
+  margin-left: 5%;
+  margin-right: 60%;
+  margin-top: 5%;
+  transform: skew(0, 4deg);
+}
+.circle2 {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 15%;
+  width: 50px;
+  height: 50px;
+  transform: scale(0.7);
+  z-index: 1;
+}
+
+/****************************************AUTOALQU******************************/
+.autoalq {
+  width: 32%;
+  margin-left: 100px;
+}
+
+.image_alq {
+  width: 100%;
+}
+
+.image_alq > img {
+  width: 100%;
+  height: 240px;
+}
+
+.tipocar {
+  background-color: rgb(50, 80, 6);
+  width: 100%;
+  height: 10vh;
+}
+
+.tipocar > h3 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.specifications {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.list {
+  margin: 3% 0% 3% 20%;
+}
+
+ul > li {
+  font-size: 40px;
+}
+
+li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+.precio6 {
+  font-size: 40px;
+  text-align: center;
+  color: orangered;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 3% 0% 3% 3%;
+}
+
+button {
+  margin: 3% 0% 3% 10%;
+  width: 80%;
+  height: 70px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+/**********************************BOXALQ**********************************************/
+.boxalq {
+  display: flex;
+}
+
+.boxinfo {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  padding-top: 40px;
+}
+
+/*************EMAIL**********************/
+.correo {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+input[type="email"] {
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+/*************NAME**********************/
+.name {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+/*************PHONE**********************/
+.phone {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+input[type="tel"] {
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+/*************DATE**********************/
+.date {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  margin-bottom: 90px;
+}
+
+input[type="date"] {
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.total {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.boxinfo > button {
+  color: white;
+  font-size: 40px;
+  width: 50%;
+  margin-left: 200px;
+}
+
+@font-face {
+  font-family: "RobotoSlab-Variablefont_Wght";
+  src: url("RobotoSlab-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+}
